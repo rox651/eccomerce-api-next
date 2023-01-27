@@ -1,10 +1,10 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from "next";
 import { ShoesProducts } from "@/src/types";
-import NikeShoe from "@/public/images/Nike-Joyride-Cushioning-Black-1-removebg-preview.png";
-import NikeShoe2 from "@/public/images/image_1.png";
-import NikeShoe3 from "@/public/images/image_2.png";
-import NikeShoe4 from "@/public/images/image.png";
+import NikeShoe from "@/public/images/Nike-Joyride-Cushioning-Black-1-removebg-preview.webp";
+import NikeShoe2 from "@/public/images/image_1.webp";
+import NikeShoe3 from "@/public/images/image_2.webp";
+import NikeShoe4 from "@/public/images/image.webp";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse<ShoesProducts[]>) {
    res.status(200).json([
